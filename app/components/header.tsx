@@ -29,7 +29,7 @@ const Header = () => {
                         >
                             <Brain className="h-7 w-7 text-primary-foreground" />
                         </motion.div>
-                        <span className="text-2xl font-bold text-gradient-advanced">AI Therapist</span>
+                        <span className="text-2xl font-bold text-gradient-advanced">AI Intern</span>
                     </motion.div>
 
                     <nav className="hidden md:flex items-center space-x-10">

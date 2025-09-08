@@ -83,14 +83,14 @@ export default function InternshipLanding() {
             >
               <Badge
                 variant="secondary"
-                className="mb-8 bg-card/80 backdrop-blur-sm text-card-foreground animate-bounce-in-advanced border border-border/20 px-6 py-2"
+                className="mb-8 bg-card/80 backdrop-blur-sm text-card-foreground animate-bounce-in-advanced border border-border/20 px-6 py-4"
               >
-                <Sparkles className="w-5 h-5 mr-2 animate-pulse" />
+                <Sparkles className="w-5 h-7 mr-2 animate-pulse" />
                 AI-Powered Internship Recommendations
               </Badge>
             </motion.div>
             <motion.h1
-              className="text-5xl sm:text-6xl lg:text-8xl font-bold text-balance mb-8 leading-tight"
+              className="text-5xl sm:text-6xl lg:text-6xl font-bold text-balance mb-8 leading-tight"
               initial={{ opacity: 0, y: 80, rotateX: 90 }}
               animate={{ opacity: 1, y: 0, rotateX: 0 }}
               transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
@@ -134,7 +134,7 @@ export default function InternshipLanding() {
               >
                 <Button
                   size="lg"
-                  className="text-xl px-12 py-8 animate-pulse-glow bg-gradient-to-r from-primary to-accent rounded-2xl font-bold"
+                  className="text-xl px-6 py-4 animate-pulse-glow bg-gradient-to-r from-primary to-accent rounded-2xl font-bold"
                 >
                   <Zap className="mr-3 h-6 w-6" />
                   Get Your Match
@@ -144,7 +144,7 @@ export default function InternshipLanding() {
                 <Button
                   variant="secondary"
                   size="lg"
-                  className="text-xl px-12 py-8 glassmorphism-card rounded-2xl font-semibold border-2 bg-transparent"
+                  className="text-xl px-6 py-4 glassmorphism-card rounded-2xl font-semibold border-2 bg-transparent"
                 >
                   <Bot className="mr-3 h-6 w-6" />
                   See How It Works
@@ -418,7 +418,7 @@ export default function InternshipLanding() {
                       whileInView={{ scale: 1, rotate: 0 }}
                       transition={{ delay: 0.5, type: "spring", stiffness: 200 }}
                     >
-                      <Badge className="bg-gradient-to-r from-primary to-accent text-primary-foreground animate-pulse-glow px-6 py-2 text-sm font-bold">
+                      <Badge className="bg-gradient-to-r from-primary to-accent text-primary-foreground animate-pulse-glow  px-6 py-2 mt-6 text-sm font-bold">
                         <Sparkles className="w-4 h-4 mr-2" />
                         Most Popular
                       </Badge>
@@ -494,7 +494,7 @@ export default function InternshipLanding() {
         />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <motion.h2
-            className="text-4xl sm:text-7xl font-bold text-balance mb-8 leading-tight"
+            className="text-4xl sm:text-6xl font-bold text-balance mb-8 leading-tight"
             initial={{ opacity: 0, y: 80, scale: 0.9 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 1 }}
@@ -529,9 +529,9 @@ export default function InternshipLanding() {
               <Button
                 size="lg"
                 variant="secondary"
-                className="text-xl px-12 py-8 animate-shimmer-advanced bg-white text-primary hover:bg-white/90 rounded-2xl font-bold"
+                className="text-xl px-6 py-4 animate-shimmer-advanced bg-white text-primary hover:bg-white/90 rounded-2xl font-bold"
               >
-                <MessageCircle className="mr-3 h-6 w-6" />
+                <MessageCircle className="mr-3 h-3 w-6" />
                 Get Started
               </Button>
             </motion.div>
@@ -539,7 +539,7 @@ export default function InternshipLanding() {
               <Button
                 size="lg"
                 variant="secondary"
-                className="text-xl px-12 py-8 border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent rounded-2xl font-semibold"
+                className="text-xl px-6 py-4 border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent rounded-2xl font-semibold"
               >
                 <Bot className="mr-3 h-6 w-6" />
                 See Demo
