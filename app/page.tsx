@@ -1,8 +1,8 @@
 "use client"
 
-import { Button } from "../components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
-import { Badge } from "../components/ui/badge"
+import { Button } from "./components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card"
+import { Badge } from "./components/ui/badge"
 import {
   CheckCircle,
   MessageCircle,
@@ -84,7 +84,7 @@ export default function AITherapistLanding() {
           transition={{ type: "spring", stiffness: 50, damping: 20 }}
         />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mt-40 mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-6xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 50, scale: 0.9 }}

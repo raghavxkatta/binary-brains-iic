@@ -1,8 +1,10 @@
+"use client"
+
 import { motion } from "framer-motion"
 import { Brain, Menu } from "lucide-react"
 import React from "react"
 import { Button } from "./ui/button"
-import {ThemeToggle} from "../components/theme-toggle"
+import { ThemeToggle } from "./theme-toggle"
 
 const Header = () => {
     return (

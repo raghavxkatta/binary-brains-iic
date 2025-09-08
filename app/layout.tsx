@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import {Header} from "./components/header"
-import {Footer} from "./components/footer"
+import Header from "./components/header"
+import Footer from "./components/footer"
 import { Suspense } from "react"
 import "./globals.css"
 
@@ -19,9 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className={`font-sans`}>
+        <Header />
         <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
+        <Footer />
       </body>
     </html>
   )
